@@ -1,17 +1,13 @@
-import './App.css'
-import Footer from './components/Footer'
-import Home from './components/Home'
-import Main from './components/Main'
+import "./App.css";
+import Home from "./Pages/Home";
+
 
 function App() {
-  
-return (
+  return (
     <>
-      <Home/>
-      <Main/>
-      <Footer/>  
+      <Home />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

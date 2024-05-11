@@ -1,14 +1,11 @@
-import Yagami from '../../public/YagamiSmallNoBg.png';
-import Basim from '../../public/BasimSmallnobg.png';
-import Aleksios from '../../public/Aleksiosnobg.png';
-import Aloy from '../../public/Aloynobg.png';
-import Logo from '../../public/gaming.png';
-
-
+import Yagami from '/YagamiSmallNoBg.png';
+import Basim from '/BasimSmallnobg.png';
+import Aleksios from '/Aleksiosnobg.png';
+import Aloy from '/Aloynobg.png';
+import Logo from '/gaming.png';
 
 function Header() {
     return (
-        
         <div className='navbar'>
             <img className='logo' src={Aloy} alt='Aloy small photo'></img>
             <img className='logo' src={Basim} alt='Basim small photo'></img>

@@ -1,7 +1,7 @@
 function Footer() {
     return (
         <div className="footer">
-            Sekcja footer
+           Footer
         </div>
     )
 }
