@@ -1,11 +1,14 @@
-import Posts from "../Pages/Posts"
+import ThumbailPosts from "../Pages/ThumbailPosts"
+
 
 function Main() {
     return (
         <div className="main">
-            <Posts/>
+            <ThumbailPosts/>
         </div>
     )
 }
+
+
 
 export default Main

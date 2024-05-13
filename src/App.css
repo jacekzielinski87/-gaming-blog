@@ -9,8 +9,8 @@
 
 
 .navbar {
-  background-color:#f5c159;
-  outline:1px solid #eed093;
+  background-color:#f7ab13;
+  outline:4px solid #ecd5a7;
   height:113px;
 }
 
@@ -49,26 +49,27 @@
 .footer {
   height:100px;
   background-color: rgb(8, 8, 8);
-  outline:1px solid #d4a84e;
+  outline:1px solid #f8bb41;
   color:#fff;
 }
 
 .news_container {
   padding:12px;
-  display: flex;
-  align-items: center;
-  gap:1.4rem;
+  display:grid;
+  gap:3rem;
 }
 
 .news_text {
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   position: relative;
-  right:490px;
-  bottom:10px;
-  color:#fff;
-  background-color: #0b3fa0;
-  padding-left: 2px;
-  font-family: "Reddit Sans", sans-serif;
-}
-
+  right:495px;
+  bottom:15px;
+  color:#0c0b0b;
+  background-color: #f0c22b;
+  padding-left: px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  outline: 2px solid #fff;
+ }

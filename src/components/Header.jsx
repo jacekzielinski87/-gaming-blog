@@ -12,7 +12,6 @@ function Header() {
             <img className='logopage' src={Logo} alt='logo photo'></img>
             <img className='logo' src={Aleksios} alt='Aleksios small photo'></img>
             <img className='logo' src={Yagami} alt='yagami small photo'></img>
-            <p className='banner_text'>Miejsce dla każdego gracza</p>
         </div>
     )
 }
