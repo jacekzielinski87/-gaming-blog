@@ -9,7 +9,7 @@
 
 
 .navbar {
-  background-color:#f7ab13;
+  background-color:#fabd44;
   outline:4px solid #ecd5a7;
   height:113px;
 }
@@ -36,7 +36,7 @@
 
 
 .main {
-  background-image: url('/horizonbg.jpg');
+  background-image: url('/bghorizon.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height:100vh;
