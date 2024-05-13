@@ -53,10 +53,13 @@
   color:#fff;
 }
 
-.news_container {
+.thumbail_container {
   padding:12px;
   display:grid;
-  gap:3rem;
+  grid-template-areas: 
+  "first second"
+  "three four";
+  gap:30px;
 }
 
 .news_text {
@@ -71,5 +74,5 @@
   font-family: "Kanit", sans-serif;
   font-weight: 300;
   font-style: normal;
-  outline: 2px solid #fff;
+  outline: 2px solid #e4bd53;
  }
