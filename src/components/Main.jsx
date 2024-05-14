@@ -1,4 +1,5 @@
-import ThumbailPosts from "../Pages/ThumbailPosts"
+import ThumbailPosts from "../Pages/ThumbailPosts";
+
 
 
 function Main() {

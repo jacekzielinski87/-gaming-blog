@@ -8,33 +8,32 @@ import Sekiro from '/Sekiro.jpg';
 
 function Posts() {
   return (
-    <div className="thumbail_container">
-      <article className="article">
-            <img className="news_image" src={Odyssey} alt='Aleksios on tree photo'></img>
-            <a href="Co lubię w Assasin's Creed Odyssey" className='news_text'>Co lubię w Assassins Creed Odyssey ?</a>
+    <div className="thumbail-container">
+      <article className="odyssey">
+            <img className="news-image" src={Odyssey} alt='Aleksios on tree photo'></img>
+            <a href="Co lubię w Assasin's Creed Odyssey" className='text-assassin'>Co lubię w Assassins Creed Odyssey ?</a>
           </article>
-        <article className="article">
-            <img className="news_image" src={Judgment} alt='Yagami photo'></img>
-            <a href="" className='news_text'>Jak zaczęła się moja przygoda z grami z serii Yakuza?</a>
+        <article className="judgment">
+            <img className="news-image" src={Judgment} alt='Yagami photo'></img>
+            <a href="" className='text-judgment'>Jak zaczęła się moja przygoda z grami z serii Yakuza?</a>
         </article>
-        <article className="article">
-            <img className="news_image" src={Aloy} alt='Aloyphoto'></img>
-            <a href="Co lubię w Assasin's Creed Odyssey" className='news_text'>Przemierzając świat z Aloy</a>
+        <article className="horizon">
+            <img className="news-image" src={Aloy} alt='Aloyphoto'></img>
+            <a href="Co lubię w Assasin's Creed Odyssey" className='text-aloy'>Przemierzając świat z Aloy</a>
         </article>
-        <article className="article">
-            <img className="news_image" src={Blacklist} alt='Sam Fisher photo'></img>
-            <a href="" className='news_text'>Kiedy Sam Fisher powróci?</a>
+        <article className="blacklist">
+            <img className="news-image" src={Blacklist} alt='Sam Fisher photo'></img>
+            <a href="" className='text-sam'>Kiedy Sam Fisher powróci?</a>
           </article>
-          <article className="article">
-            <img className="news_image" src={Leon} alt='Leon S kennedy photo'></img>
-            <a href="" className='news_text'>O Capcomie i Residencie słów kilka</a>
+          <article className="leon">
+            <img className="news-image" src={Leon} alt='Leon S kennedy photo'></img>
+            <a href="" className='text-resident'>O Capcomie i Residencie słów kilka</a>
           </article>
-          <article className="article">
-            <img className="news_image" src={Sekiro} alt='Wolf photo'></img>
-            <a href="" className='news_text'>Sekiro okiem świeżaka</a>
+          <article className="sekiro">
+            <img className="news-image" src={Sekiro} alt='Wolf photo'></img>
+            <a href="" className='text-sekiro'>Sekiro okiem świeżaka</a>
           </article>
-          <p className='read_more'>Czytaj dalej</p>
-    </div>
+        </div>
   )
 }
 

@@ -11,91 +11,170 @@
 
 
 .navbar {
-  background-color:#fabd44;
-  outline:4px solid #ecd5a7;
+  background-color:#2b2e30;
+  outline:5px solid #f2f3b1;
   height:113px;
 }
 
-.logopage {
+.navbar-aleksios, .navbar-yagami {
   position: relative;
-  bottom: 15px;
-  height: 75px;
+  left:1088px;
 }
 
-.banner_text {
-  font-family: "Ubuntu", sans-serif;
-  font-size: 2.8rem;
-  font-weight: 300;
-  font-style: italic;
+.logo-text {
   position: absolute;
-  top:10px;
-  right: 100px;
-  width:30%;
-  color:#1b1b1a;
-  padding:24px;
-  text-shadow: 1px 1px rgb(6, 6, 6);
+  top: 25px;
 }
-
 
 .main {
-  background-image: url('/Resident4.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height:100vh;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
   padding-top: 28px;
-  background-color: #BDCCCC;
+  background-color:#fffcec;
+}
+
+.thumbail-container {
+  display:grid;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px;
+  gap:10px;
+  padding:24px;
+}
+
+.odyssey {
+  grid-row: 1/4;
+  grid-column: 1/6;
+}
+
+.judgment {
+  grid-row: 1/4;
+  grid-column: 5/6;
+}
+
+.horizon {
+  grid-row: 3/3;
+  grid-column: 1/4;
+}
+
+.blacklist {
+  grid-row: 3/3;
+  grid-column: 8/5;
+}
+
+.leon {
+  grid-row: 5/5;
+  grid-column: 1/5;
+}
+
+.sekiro {
+  grid-row: 8/5;
+}
+
+.odyssey,.judgment,.horizon,.blacklist,.leon,.sekiro {
+  position: relative;
 }
 
 
+.text-assassin {
+  position: absolute;
+  top:165px;
+  left:0px;
+  text-decoration: none;
+  background-color: #f0c22b;
+  color:#0c0b0b;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding:4px;
+}
+
+.text-judgment {
+  position: absolute;
+  bottom: 123px;
+  text-decoration: none;
+  background-color: #f0c22b;
+  color:#0c0b0b;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding:4px;
+}
+
+.text-sekiro {
+  position: absolute;
+  bottom:23px;
+  text-decoration: none;
+  background-color: #f0c22b;
+  color:#0c0b0b;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding:4px;
+}
+
+.text-aloy {
+  text-decoration: none;
+  position: absolute;
+  bottom:-97px;
+  background-color: #f0c22b;
+  color:#0c0b0b;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding:4px;
+}
+
+.text-sam {
+  text-decoration: none;
+  position: absolute;
+  bottom:-97px;
+  left:0px;
+  background-color: #f0c22b;
+  color:#0c0b0b;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding:4px;
+}
+
+
+.text-resident {
+  text-decoration: none;
+  position: absolute;
+  bottom:-97px;
+  left:0px;
+  background-color: #f0c22b;
+  color:#0c0b0b;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding:4px;
+}
+
+
+.article {
+  width:400px;
+}
+
 .footer {
-  height:100px;
   background-color: rgb(8, 8, 8);
   outline:1px solid #f8bb41;
   color:#fff;
 }
 
-.thumbail_container {
-  position: relative;
-  left:80px;
-  display:grid;
-  grid-template-areas: 
-  "first second"
-  "three four";
-  gap:20px;
-}
-
-.news_text {
-  text-decoration: none;
-  font-size: 1.3rem;
-  position: relative;
-  right:499px;
-  bottom:13px;
+/*.read-more {
   color:#0c0b0b;
-  background-color: #f0c22b;
   font-family: "Kanit", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  outline: 4px solid #394ae4;
-  padding:6px;
-  border-radius:4px;
- }
-
- .news_image {
-  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
- }
-
-.read_more {
-  font-size: 1.5rem;
-  color:#0c0b0b;
-  font-family: "Noto Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
   background-color: #f0c22b;
   position: absolute;
-  bottom:10px;
+  bottom:165px;
   right:200px;
   outline: 2px solid #394ae4;
   border-radius: 4px;
   padding:6px;
 }
+*/
+
