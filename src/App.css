@@ -75,10 +75,9 @@
   position: relative;
 }
 
-
 .text-assassin {
   position: absolute;
-  top:165px;
+  top:160px;
   left:0px;
   text-decoration: none;
   background-color: #f0c22b;
@@ -87,6 +86,7 @@
   font-weight: 400;
   font-style: normal;
   padding:4px;
+  margin:2px;
 }
 
 .text-judgment {
@@ -99,6 +99,7 @@
   font-weight: 400;
   font-style: normal;
   padding:4px;
+  margin:2px;
 }
 
 .text-sekiro {
@@ -111,6 +112,7 @@
   font-weight: 400;
   font-style: normal;
   padding:4px;
+  margin:2px;
 }
 
 .text-aloy {
@@ -123,6 +125,7 @@
   font-weight: 400;
   font-style: normal;
   padding:4px;
+  margin:2px;
 }
 
 .text-sam {
@@ -136,6 +139,7 @@
   font-weight: 400;
   font-style: normal;
   padding:4px;
+  margin:2px;
 }
 
 
@@ -150,6 +154,7 @@
   font-weight: 400;
   font-style: normal;
   padding:4px;
+  margin:2px;
 }
 
 
