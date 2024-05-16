@@ -169,18 +169,15 @@
 }
 
 .footer {
-  background-color: rgb(8, 8, 8);
+  background-color: rgb(240, 231, 231);
   outline:1px solid #f8bb41;
-  color:#e7dada;
+  color:#141313;
   display: flex;
   display:flex;
   flex-direction: column;
   align-items: center;
-  gap:10px;
-}
-
-.rights-text {
-  color:#fff;
+  gap:12px;
+  height: 200px;
 }
 
 

@@ -7,7 +7,7 @@ function Footer(footer, rights) {
         <div className="footer">
            {footers.map((footer) => (
             <div className="footer-preview" key={footer.id}>
-                <h1>{footer.name}</h1>
+                <h3>{footer.name}</h3>
                 <p className="rights-text">{rights.name}</p>
             </div>      
            ))}
