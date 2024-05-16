@@ -10,27 +10,27 @@ function Posts() {
   return (
     <div className="thumbail-container">
       <article className="odyssey">
-            <img className="news-image" src={Odyssey} alt='Aleksios on tree photo'></img>
+            <img className="thumbail-image" src={Odyssey} alt='Aleksios on tree photo'></img>
             <a href="Co lubię w Assasin's Creed Odyssey" className='text-assassin'>Co lubię w Assassins Creed Odyssey ?</a>
           </article>
         <article className="judgment">
-            <img className="news-image" src={Judgment} alt='Yagami photo'></img>
+            <img className="thumbail-image" src={Judgment} alt='Yagami photo'></img>
             <a href="" className='text-judgment'>Jak zaczęła się moja przygoda z grami z serii Yakuza?</a>
         </article>
         <article className="horizon">
-            <img className="news-image" src={Aloy} alt='Aloyphoto'></img>
+            <img className="thumbail-image" src={Aloy} alt='Aloyphoto'></img>
             <a href="Co lubię w Assasin's Creed Odyssey" className='text-aloy'>Przemierzając świat z Aloy</a>
         </article>
         <article className="blacklist">
-            <img className="news-image" src={Blacklist} alt='Sam Fisher photo'></img>
+            <img className="thumbail-image" src={Blacklist} alt='Sam Fisher photo'></img>
             <a href="" className='text-sam'>Kiedy Sam Fisher powróci?</a>
           </article>
           <article className="leon">
-            <img className="news-image" src={Leon} alt='Leon S kennedy photo'></img>
+            <img className="thumbail-image" src={Leon} alt='Leon S kennedy photo'></img>
             <a href="" className='text-resident'>O Capcomie i Residencie słów kilka</a>
           </article>
           <article className="sekiro">
-            <img className="news-image" src={Sekiro} alt='Wolf photo'></img>
+            <img className="thumbail-image" src={Sekiro} alt='Wolf photo'></img>
             <a href="" className='text-sekiro'>Sekiro okiem świeżaka</a>
           </article>
         </div>
