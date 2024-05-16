@@ -4,14 +4,16 @@ function Footer(footer, rights) {
     
 
     return (
+        <>
         <div className="footer">
            {footers.map((footer) => (
-            <div className="footer-preview" key={footer.id}>
-                <h3>{footer.name}</h3>
-                <p className="rights-text">{rights.name}</p>
-            </div>      
-           ))}
+            <div className="footer-text" key={footer.id}>
+                <p>{footer.name}</p>
+                <p>{rights.name}</p>
+            </div>
+            ))}
         </div>
+        </>
         )
     }
 
