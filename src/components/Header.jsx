@@ -6,13 +6,15 @@ import Logo from '/gaming.png';
 
 function Header() {
     return (
-        <div className='navbar'>
-            <img className='navbar-aloy' src={Aloy} alt='Aloy small photo'></img>
-            <img className='navbar-basim' src={Basim} alt='Basim small photo'></img>
-            <img className='navbar-aleksios' src={Aleksios} alt='Aleksios small photo'></img>
-            <img className='navbar-yagami' src={Yagami} alt='yagami small photo'></img>
-            <img className='logo-text' src={Logo} alt='logo photo'></img>
-        </div>
+        <nav className='navbar'>
+            <div className='navbar-images'>
+                <img className='navbar-character' src={Aloy} alt='Aloy small photo' />
+                <img className='navbar-character' src={Basim} alt='Basim small photo' />
+                <img className='navbar-character' src={Aleksios} alt='Aleksios small photo' />
+                <img className='navbar-character' src={Yagami} alt='yagami small photo' />
+            </div>
+            <img className='logo-text' src={Logo} alt='logo photo' />
+        </nav>
     )
 }
 

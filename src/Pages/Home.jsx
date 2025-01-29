@@ -5,7 +5,7 @@ import { useState } from "react";
 
 
 function Home () {
-    const [footers, setFooter] = useState([
+    const [footers] = useState([
     {name:"Artykuły", id:"1"},
     {name:"News",id:"2"},
     {name:"Play Station", id:"3"},
