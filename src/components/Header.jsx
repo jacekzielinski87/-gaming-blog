@@ -2,7 +2,7 @@ import Yagami from '/YagamiSmallNoBg.png';
 import Basim from '/BasimSmallnobg.png';
 import Aleksios from '/Aleksiosnobg.png';
 import Aloy from '/Aloynobg.png';
-import Logo from '/gaming.png';
+import Logo from '/gamingg.png';
 
 function Header() {
     return (
