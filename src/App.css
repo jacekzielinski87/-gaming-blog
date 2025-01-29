@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #c4edde;
+    background-color: #fcc29a;
 }
 
 .thumbail-container {
@@ -80,14 +80,20 @@
 
 .footer-navigation {
     display: grid;
+    position: absolute;
+    top:0px;
+    left:0;
+    right:0;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 1rem;
-    margin-bottom: 2rem;
+    gap: 4rem;
+    margin-bottom: 4rem;
+    background-color:#252a34;
 }
 
 .footer-item {
     text-align: center;
     font-size: 1.3rem;
+    background-color:#252a34;
 }
 
 .footer-copyright {
@@ -95,6 +101,7 @@
     font-size: 1.3rem;
     font-font-family: serif;
     padding-top: 20px;
+    
 }
 
 /* Media Queries */
