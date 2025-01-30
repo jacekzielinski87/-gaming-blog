@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Yagami from '/YagamiSmallNoBg.png';
 import Basim from '/BasimSmallnobg.png';
 import Aleksios from '/Aleksiosnobg.png';
@@ -13,10 +14,11 @@ function Header() {
                 <img className='navbar-character' src={Aleksios} alt='Aleksios small photo' />
                 <img className='navbar-character' src={Yagami} alt='yagami small photo' />
             </div>
-            <img className='logo-text' src={Logo} alt='logo photo' />
+            <Link to="/">
+                <img className='logo-text' src={Logo} alt='logo photo' style={{ cursor: 'pointer' }} />
+            </Link>
         </nav>
     )
 }
 
-export default Header
-
+export default Header;
